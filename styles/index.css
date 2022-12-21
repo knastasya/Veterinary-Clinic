@@ -1,3 +1,41 @@
-.class {
+.nav-container {
     display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2% 0 2%;
+}
+
+.nav-container__link {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #C3B9B5;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #C3B9B5;
+}
+
+.nav-container__city-img {
+    width: 12px;
+}
+
+.nav-container__city {
+    display: flex;
+    width: 8%;
+    justify-content: space-between;
+    color: #FFC59E;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
 }
