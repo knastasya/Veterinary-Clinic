@@ -1,6 +1,5 @@
 .nav-container {
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
     align-items: center;
     padding: 2% 2% 0 2%;
@@ -42,10 +41,10 @@ a:hover {
 
 .major-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .major-container__list {
-    border: 1px solid green;
     display: flex;
     justify-content: center;
     width: 10%;
@@ -58,7 +57,6 @@ a:hover {
 }
 
 .major-container__info {
-    border: 1px solid blueviolet;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -87,7 +85,6 @@ a:hover {
 }
 
 .major-container__social {
-    border: 1px solid green;
     display: flex;
     width: 40%;
     margin-top: 25%;
@@ -99,11 +96,12 @@ a:hover {
 }
 
 .major-container__pic {
-    border: 1px solid red;
-    width: 40%;
     display: flex;
+    width: 39%;
     justify-content: flex-end;
     align-items: flex-end;
+    flex-grow: 1;
+
 }
 
 .major-container__main-img {
@@ -120,4 +118,108 @@ a:hover {
     font-size: 0.8em;
     color: #59443F;
 
+}
+
+.service {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(4, 15%);
+    grid-template-rows: repeat(4, 20%);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 15px;
+    margin-top: 5%;
+
+}
+
+.service__cell {
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(34, 60, 80, 0.12);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+}
+
+.service__img {
+    width: 60%;
+    margin: 0 10px 10px 0;
+}
+
+.service__img_neurology {
+    width: 80%;
+    max-width: 80%;
+}
+
+.service__img_derm,
+.service__img_cardio {
+    width: 95%;
+}
+
+.service__img_orthoped,
+.service__img_visual,
+.service__img_oncolog {
+    width: 75%;
+}
+
+.service__img_ophthalm {
+    width: 130%;
+}
+
+
+.service__img_dentist {
+    width: 110%;
+}
+
+.service__picture_reproduct {
+    width: 480%;
+    margin-left: -120px;
+}
+
+.service__img_lab {
+    width: 85%;
+}
+
+.service__img_endocrin {
+    width: 220%;
+}
+
+
+.service__img_exotic {
+    width: 100%;
+}
+
+.service__img_groom {
+    width: 70%;
+}
+
+.service__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 13px;
+}
+
+.service__picture {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.service__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #59443F;
+}
+
+.service__title:hover {
+    text-decoration: underline;
+}
+
+.service__discrip {
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #59443F;
 }
