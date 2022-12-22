@@ -112,7 +112,7 @@
 .major-container__phone {
     position: absolute;
     right: 3%;
-    bottom: 15%;
+    bottom: 10%;
     font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.8em;
@@ -258,4 +258,34 @@
 
 .main-history__nextly:hover {
     text-decoration: underline;
+}
+
+.achieving {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10% 0 12% 0;
+    background-image: url(../assets/bird.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position-x: 57%;
+    background-position-y: 85%;
+}
+
+.achieving__number {
+    color: #59443F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 5.2em;
+    margin: 0;
+}
+
+.achieving__text {
+    color: #080606;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1.5;
+    margin: 0;
 }
