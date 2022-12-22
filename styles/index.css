@@ -1,3 +1,73 @@
 .class {
     display: flex;
 }
+
+/*------------HISTORY PAGE---------*/
+
+/*----УДАЛИТЬ ФАЙЛ ШРИФТА!!!---*/
+@font-face {
+    font-family: "School-Book";
+	src: url("../styles/schoolbook-cyrillic.ttf");
+    font-weight: 400;
+	
+}
+/* --------удалить позже-----*/
+.title {
+    font-family: "School-Book";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 70px;
+}
+
+.history-wrapper {
+    border: 1px solid red;
+    width: 76%;
+    margin: auto;
+}
+
+.history-container {
+    display: grid;
+    grid-template-areas: "h-contents h-main-content";
+    grid-template-columns: 38fr 62fr;
+}
+
+.history-contents {
+    grid-area: h-contents;
+    padding-top: 10vh;
+}
+
+.history-main-content {
+    grid-area: h-main-content;
+}
+
+.history-main-content__back-word {
+    border: 1px solid red;
+    height: 10vh;
+}
+
+.history-main-content__back-link {
+    color: #FFC59E;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 20px;
+}
+
+.history-main-content__img-path {
+    margin: 5px 5px 0 0;
+    height: 0.7em;
+}
+
+.history-main-content__back-link {
+    text-decoration: none;
+}
+
+.history-main-content__img {
+    max-width: 98%;
+}
+
+.history-main-content__small-img {
+    max-width: 49%;
+}
