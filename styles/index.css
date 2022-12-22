@@ -5,13 +5,13 @@
     padding: 2% 2% 0 2%;
 }
 
-.nav-container__link {
+.nav-container__header {
     display: flex;
     width: 60%;
     justify-content: space-between;
 }
 
-a {
+.nav-container__link {
     text-decoration: none;
     color: #C3B9B5;
     font-family: 'Futura New', Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ a {
     font-size: 1em;
 }
 
-a:hover {
+.nav-container__link:hover {
     text-decoration: underline;
     color: #C3B9B5;
 }
@@ -222,4 +222,40 @@ a:hover {
     font-weight: 400;
     font-size: 0.8em;
     color: #59443F;
+}
+
+.main-history {
+    background-color: #FBF8F8;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 6% 0 6% 0
+}
+
+.main-history__title {
+    color: #080606;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.main-history__text {
+    color: #59443F;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.main-history__nextly {
+    color: #FFC59E;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.main-history__nextly:hover {
+    text-decoration: underline;
 }
