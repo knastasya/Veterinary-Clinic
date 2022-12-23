@@ -4,22 +4,6 @@
 
 /*------------HISTORY PAGE---------*/
 
-/*----УДАЛИТЬ ФАЙЛ ШРИФТА!!!---*/
-@font-face {
-    font-family: "School-Book";
-	src: url("../styles/schoolbook-cyrillic.ttf");
-    font-weight: 400;
-	
-}
-/* --------удалить позже-----*/
-.title {
-    font-family: "School-Book";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 3rem;
-    line-height: 70px;
-}
-
 .history-wrapper {
     border: 1px solid red;
     width: 76%;
@@ -34,7 +18,7 @@
 
 .history-contents {
     grid-area: h-contents;
-    padding-top: 10vh;
+    padding-top: 3em;
 }
 
 .history-main-content {
@@ -65,9 +49,20 @@
 }
 
 .history-main-content__img {
-    max-width: 98%;
+    max-width: 100%;
+}
+
+.history-main-content__section {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.history-main-content__img-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .history-main-content__small-img {
-    max-width: 49%;
+    max-width: 47%;
 }
