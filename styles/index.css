@@ -1,3 +1,47 @@
 .class {
     display: flex;
 }
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.account {
+    max-width: 90vw;
+    margin: 0 auto;
+    font-size: "Futura";
+}
+
+.account a:hover {
+    color: #333333;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.account .content {
+    display: flex;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.content .aside {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.aside .aside__title {
+    font-size: 3em;
+}
+
+.aside .aside__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10%;
+    padding-left: 0;
+}
+
+.aside .aside__items {
+    color: #C3B9B5;
+}
