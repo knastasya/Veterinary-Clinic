@@ -45,3 +45,82 @@
 .aside .aside__items {
     color: #C3B9B5;
 }
+
+.content .article {
+    width: 90%;
+}
+
+.profile-card {
+    border: 1px solid #C3B9B5;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 1fr 50%;
+    margin-bottom: 5%;
+}
+
+.profile-card .profile-card__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.profile-card .profile-card__change-link {
+    color: rgb(255,197,158);
+    margin-top: 5%;
+}
+
+.profile-card .profile-card__image_empty-field {
+    width: 80%;
+}
+
+.my-pets {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.my-pets .my-pets__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255,197,158);
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    border: rgb(255,197,158);
+    border-radius: 10px;
+}
+
+.my-pets .my-pets__button:hover {
+    border: 2px solid;
+    transition: 0.7s;
+}
+
+.my-pets .my-pets__button:active {
+    transform: translateY(5px);
+}
+
+.profile-card .profile-card__required-info {
+    color: #C3B9B5;
+}
+
+.profile-card .profile-card__description {
+    
+}
+
+.profile-card .profile-card__medical-data {
+    border: 1px solid #C3B9B5;
+    border-radius: 5px;
+    height: 10%;
+    box-shadow: 2px 2px 2px #C3B9B5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 2%;
+}
