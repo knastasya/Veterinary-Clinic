@@ -1,5 +1,71 @@
 .nav-container {
     display: flex;
+<<<<<<< HEAD
+}
+
+/*------------HISTORY PAGE---------*/
+
+.history-wrapper {
+    border: 1px solid red;
+    width: 76%;
+    margin: auto;
+}
+
+.history-container {
+    display: grid;
+    grid-template-areas: "h-contents h-main-content";
+    grid-template-columns: 38fr 62fr;
+}
+
+.history-contents {
+    grid-area: h-contents;
+    padding-top: 3em;
+}
+
+.history-main-content {
+    grid-area: h-main-content;
+}
+
+.history-main-content__back-word {
+    border: 1px solid red;
+    height: 10vh;
+}
+
+.history-main-content__back-link {
+    color: #FFC59E;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 20px;
+}
+
+.history-main-content__img-path {
+    margin: 5px 5px 0 0;
+    height: 0.7em;
+}
+
+.history-main-content__back-link {
+    text-decoration: none;
+}
+
+.history-main-content__img {
+    max-width: 100%;
+}
+
+.history-main-content__section {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.history-main-content__img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-main-content__small-img {
+    max-width: 47%;
     justify-content: space-between;
     align-items: center;
     padding: 2% 2% 0 2%;
