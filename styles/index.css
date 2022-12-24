@@ -112,7 +112,7 @@
 .major-container__phone {
     position: absolute;
     right: 3%;
-    bottom: 10%;
+    bottom: 15%;
     font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.8em;
@@ -342,7 +342,11 @@
 
 .footer-container__social {
     grid-column: 4/5;
-    grid-row: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: flex-end;
+
+
 }
 
 .footer-container__link {
@@ -356,4 +360,34 @@
 
 .footer-container__link:hover {
     text-decoration: underline;
+}
+
+.footer-container__apple {
+    width: 70%;
+}
+
+.footer-container__block-last {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    flex-direction: column;
+}
+
+.major-container__social_footer {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.footer-container__email,
+.footer-container__text {
+    color: white;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.footer-container__emojy {
+    width: 4%;
 }
