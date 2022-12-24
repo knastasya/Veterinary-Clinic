@@ -1,182 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Личный кабинет</title>
-        <link rel="stylesheet" href="../styles/normalize.css" />
-        <link rel="stylesheet" href="../styles/index.css" />
-    </head>
-    <body>
-        <div class="account">
-            <header>
-        
-            </header>
-            <main class="content">
-                <aside class="aside">
-                    <h1 class="aside__title">Виктория</h1>
-                    <ul class="aside__menu">
-                        <li><a class="aside__items" href="#">ЛИЧНЫЕ ДАННЫЕ</a></li>
-                        <li><a class="aside__items" href="#">МОИ ПИТОМЦЫ</a></li>
-                        <li><a class="aside__items" href="#">ЗАПИСЬ НА ПРИЕМ</a></li>
-                        <li><a class="aside__items" href="#">ВЫЙТИ</a></li>
-                    </ul>
-                </aside>
-                <article class="article">
-                    <section>
-                        <h2>Личные данные</h2>
-                        <div class="profile-card">
-                            <div class="profile-card__image">
-                                <img class="profile-card__image_empty-field" src="../assets/profile_image_empty.PNG" alt="profile picture">
-                                <a class="profile-card__change-link" href="#">изменить</a>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">имя</p>
-                                <p class="profile-card__description">Виктория</p>
-                                <p class="profile-card__required-info">фамилия</p>
-                                <p class="profile-card__description">Иванова</p>
-                                <p class="profile-card__required-info">отчетсво</p>
-                                <p class="profile-card__description">Александровна</p>
-                                <p class="profile-card__required-info">телефон</p>
-                                <p class="profile-card__description">+7 999 598-12-45</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">О себе</p>
-                                <p class="profile-card__description">Живу в Волгограде, очень люблю животных! Мечтаю завести много зверей и построить приют. Пока что у меня собака, кошка и рыбки :)</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="my-pets">
-                        <h2>Мои питомцы</h2>
-                        <button class="my-pets__button" type="button">
-                            <img src="../assets/button_pic.PNG" alt="button picture add pet">&nbsp;&nbsp;ДОБАВИТЬ НОВОГО ПИТОМЦА</button>
-                    </section>
-                    <section class="profile-card">
-                        <div class="profile-card__image">
-                            <img src="../assets/dog_image.png" alt="doggy pic">
-                            <a class="profile-card__change-link" href="#">изменить</a>
-                        </div>
-                        <div>
-                            <h2>Громопетр</h2>
-                            <div>
-                                <p class="profile-card__required-info">тип</p>
-                                <p class="profile-card__description">Собака</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">пол</p>
-                                <p class="profile-card__description">Мужской</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">порода</p>
-                                <p class="profile-card__description">Без породы</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">возраст</p>
-                                <p class="profile-card__description">1 год 2 месяца</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="profile-card__required-info">медицинская карта</p>
-                            <div class="profile-card__medical-data">
-                                <p><i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;10255</p>
-                                <p class="profile-card__required-info">обновлена 25.06.19</p>
-                            </div>
-                            <p class="profile-card__required-info">результаты анализов</p>
-                            <div class="profile-card__medical-data">
-                                <p><i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;ОАК</p>
-                                <p class="profile-card__required-info">25.06.19</p>
-                            </div>
-                            <div class="profile-card__medical-data">
-                                <p><i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;Узи брюшной полости</p>
-                                <p class="profile-card__required-info">25.06.19</p>
-                            </div>
-                            <div class="profile-card__medical-data">
-                                <p><i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;Биохимия крови</p>
-                                <p class="profile-card__required-info">25.06.19</p>
-                            </div>
-                            <div class="profile-card__medical-data">
-                                <p><i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;Анализ очень длинное...</p>
-                                <p class="profile-card__required-info">25.06.19</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="profile-card">
-                        <div class="profile-card__image">
-                            <img src="../assets/cat_image.png" alt="cat pic">
-                            <a class="profile-card__change-link" href="#">изменить</a>
-                        </div>
-                        <div>
-                            <h2>Имя питомца</h2>
-                            <div>
-                            <p class="profile-card__required-info">тип</p>
-                            <p class="profile-card__description">Кошка</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">пол</p>
-                                <p class="profile-card__description">Женский</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">порода</p>
-                                <p class="profile-card__description">Русская голубая</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">возраст</p>
-                                <p class="profile-card__description">4 месяца</p>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <p class="profile-card__required-info">медицинская карта</p>
-                                <p class="profile-card__description">Медицинскую карту заводят при первом посещении клиники и обновляют при каждом обращении. Здесь вы сможете посмотреть и скачать актуальную карту в формате pdf</p>
-                            </div>
-                            <div>
-                                <p class="profile-card__required-info">результаты анализов</p>
-                                <p class="profile-card__description">Пока нет готовых анализов</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <h2>Запись на прием</h2>
-                        <div class="profile-card">
-                            <div class="profile-card__image">
-                            <img src="../assets/customer_image.png" alt="customer pic">
-                            <a class="profile-card__change-link" href="#">отменить прием</a>
-                            </div>
-                            <div>
-                                <div>
-                                    <p class="profile-card__required-info">врач</p>
-                                    <p class="profile-card__description">Иванова 
-                            Ирина Владимировна</p>
-                                </div>
-                                <div>
-                                    <p class="profile-card__required-info">ветклиника</p>
-                                    <p class="profile-card__description">Айболит на Краснополянской</p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <p class="profile-card__required-info">питомец</p>
-                                    <p class="profile-card__description">Громопетр</p>
-                                </div>
-                                <div>
-                                    <p class="profile-card__required-info">дата</p>
-                                    <p class="profile-card__description">15.10.19</p>
-                                </div>
-                                <div>
-                                    <p class="profile-card__required-info">время</p>
-                                    <p class="profile-card__description">15:45</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </article>
-            </main> 
-            <footer>
-
-            </footer> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link
+      href="../styles/fonts/future-new/stylesheet.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <header class="nav-container">
+      <div>
+        <a href="../index.html"><img src="../assets/logo-header.png" alt="Logo" /></a>
+      </div>
+      <div class="nav-container__position">
+        <div class="nav-container__links">
+          <a class="nav-container__link" href="./account.html"
+            >Личный кабинет</a
+          >
+          <a class="nav-container__link" href="./about-us.html">О нас</a>
+          <a class="nav-container__link" href="./news-and-promo.html"
+            >Новости и акции</a
+          >
+          <a class="nav-container__link" href="./contacts.html">Контакты</a>
+          <a class="nav-container__link" href="./blog.html">Блог</a>
         </div>
+        <div class="nav-container__city">
+          <img
+            class="nav-container__city-img"
+            src="../assets/places.png"
+            alt="Город"
+          />Волгоград
+        </div>
+      </div>
+    </header>
+    <div class="account">
+      <main class="content">
+        <aside class="aside">
+          <h1 class="aside__title">Виктория</h1>
+          <ul class="aside__menu">
+            <li><a class="aside__items" href="#">ЛИЧНЫЕ ДАННЫЕ</a></li>
+            <li><a class="aside__items" href="#">МОИ ПИТОМЦЫ</a></li>
+            <li><a class="aside__items" href="#">ЗАПИСЬ НА ПРИЕМ</a></li>
+            <li><a class="aside__items" href="#">ВЫЙТИ</a></li>
+          </ul>
+        </aside>
+        <article class="article">
+          <section>
+            <h2>Личные данные</h2>
+            <div class="profile-card">
+              <div class="profile-card__image">
+                <img
+                  class="profile-card__image_empty-field"
+                  src="../assets/profile_image_empty.PNG"
+                  alt="profile picture"
+                />
+                <a class="profile-card__change-link" href="#">изменить</a>
+              </div>
+              <div>
+                <p class="profile-card__required-info">имя</p>
+                <p class="profile-card__description">Виктория</p>
+                <p class="profile-card__required-info">фамилия</p>
+                <p class="profile-card__description">Иванова</p>
+                <p class="profile-card__required-info">отчетсво</p>
+                <p class="profile-card__description">Александровна</p>
+                <p class="profile-card__required-info">телефон</p>
+                <p class="profile-card__description">+7 999 598-12-45</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">О себе</p>
+                <p class="profile-card__description">
+                  Живу в Волгограде, очень люблю животных! Мечтаю завести много
+                  зверей и построить приют. Пока что у меня собака, кошка и
+                  рыбки :)
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="my-pets">
+            <h2>Мои питомцы</h2>
+            <button class="my-pets__button" type="button">
+              <img
+                src="../assets/button_pic.PNG"
+                alt="button picture add pet"
+              />&nbsp;&nbsp;ДОБАВИТЬ НОВОГО ПИТОМЦА
+            </button>
+          </section>
+          <section class="profile-card">
+            <div class="profile-card__image">
+              <img src="../assets/dog_image.png" alt="doggy pic" />
+              <a class="profile-card__change-link" href="#">изменить</a>
+            </div>
+            <div>
+              <h2>Громопетр</h2>
+              <div>
+                <p class="profile-card__required-info">тип</p>
+                <p class="profile-card__description">Собака</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">пол</p>
+                <p class="profile-card__description">Мужской</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">порода</p>
+                <p class="profile-card__description">Без породы</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">возраст</p>
+                <p class="profile-card__description">1 год 2 месяца</p>
+              </div>
+            </div>
+            <div>
+              <p class="profile-card__required-info">медицинская карта</p>
+              <div class="profile-card__medical-data">
+                <p>
+                  <i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;10255
+                </p>
+                <p class="profile-card__required-info">обновлена 25.06.19</p>
+              </div>
+              <p class="profile-card__required-info">результаты анализов</p>
+              <div class="profile-card__medical-data">
+                <p>
+                  <i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;ОАК
+                </p>
+                <p class="profile-card__required-info">25.06.19</p>
+              </div>
+              <div class="profile-card__medical-data">
+                <p>
+                  <i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;Узи
+                  брюшной полости
+                </p>
+                <p class="profile-card__required-info">25.06.19</p>
+              </div>
+              <div class="profile-card__medical-data">
+                <p>
+                  <i class="fa-sharp fa-solid fa-file-pdf"></i
+                  >&nbsp;&nbsp;Биохимия крови
+                </p>
+                <p class="profile-card__required-info">25.06.19</p>
+              </div>
+              <div class="profile-card__medical-data">
+                <p>
+                  <i class="fa-sharp fa-solid fa-file-pdf"></i
+                  >&nbsp;&nbsp;Анализ очень длинное...
+                </p>
+                <p class="profile-card__required-info">25.06.19</p>
+              </div>
+            </div>
+          </section>
+          <section class="profile-card">
+            <div class="profile-card__image">
+              <img src="../assets/cat_image.png" alt="cat pic" />
+              <a class="profile-card__change-link" href="#">изменить</a>
+            </div>
+            <div>
+              <h2>Имя питомца</h2>
+              <div>
+                <p class="profile-card__required-info">тип</p>
+                <p class="profile-card__description">Кошка</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">пол</p>
+                <p class="profile-card__description">Женский</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">порода</p>
+                <p class="profile-card__description">Русская голубая</p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">возраст</p>
+                <p class="profile-card__description">4 месяца</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <p class="profile-card__required-info">медицинская карта</p>
+                <p class="profile-card__description">
+                  Медицинскую карту заводят при первом посещении клиники и
+                  обновляют при каждом обращении. Здесь вы сможете посмотреть и
+                  скачать актуальную карту в формате pdf
+                </p>
+              </div>
+              <div>
+                <p class="profile-card__required-info">результаты анализов</p>
+                <p class="profile-card__description">
+                  Пока нет готовых анализов
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <h2>Запись на прием</h2>
+            <div class="profile-card">
+              <div class="profile-card__image">
+                <img src="../assets/customer_image.png" alt="customer pic" />
+                <a class="profile-card__change-link" href="#">отменить прием</a>
+              </div>
+              <div>
+                <div>
+                  <p class="profile-card__required-info">врач</p>
+                  <p class="profile-card__description">
+                    Иванова Ирина Владимировна
+                  </p>
+                </div>
+                <div>
+                  <p class="profile-card__required-info">ветклиника</p>
+                  <p class="profile-card__description">
+                    Айболит на Краснополянской
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <p class="profile-card__required-info">питомец</p>
+                  <p class="profile-card__description">Громопетр</p>
+                </div>
+                <div>
+                  <p class="profile-card__required-info">дата</p>
+                  <p class="profile-card__description">15.10.19</p>
+                </div>
+                <div>
+                  <p class="profile-card__required-info">время</p>
+                  <p class="profile-card__description">15:45</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </main>
+    </div>
+    <footer class="footer-container">
+      <div class="footer-container__logo">
+        <img
+          class="footer-container__img"
+          src="../assets/logo-footer.png"
+          alt="Logo"
+        />
+      </div>
+      <div class="footer-container__download"></div>
+      <div class="footer-container__block-left">
+        <a
+          class="footer-container__link footer-container__link_left"
+          href="./policy.html"
+        >
+          Политика <br />
+          конфиденциальности в <br />
+          отношении обработки <br />
+          персональных данных</a
+        >
+      </div>
+      <div class="footer-container__block-center">
+        <a
+          class="footer-container__link footer-container__link_center"
+          href="../index.html"
+          >Главная</a
+        >
+        <a
+          class="footer-container__link footer-container__link_center"
+          href="./price.html"
+          >Услуги и цены</a
+        >
+        <a
+          class="footer-container__link footer-container__link_center"
+          href="./history.html"
+          >История компании</a
+        >
+        <a
+          class="footer-container__link footer-container__link_center"
+          href="./about-us.html"
+          >Наши специалисты</a
+        >
+        <a
+          class="footer-container__link footer-container__link_center"
+          href="./vacancy.html"
+          >Вакансии</a
+        >
+        <a
+          class="footer-container__link footer-container__link_center"
+          href="./details.html"
+          >Реквизиты</a
+        ><a
+          class="footer-container__link footer-container__link_center"
+          href="./online-payment.html"
+          >Онлайн-оплата</a
+        >
+      </div>
+      <div class="footer-container__block-right">
+        <a
+          class="footer-container__link footer-container__link_right"
+          href="./reviews.html"
+          >Отзывы</a
+        >
+        <a
+          class="footer-container__link footer-container__link_right"
+          href="./contacts.html"
+          >Контакты</a
+        >
+        <a
+          class="footer-container__link footer-container__link_right"
+          href="./grooming.html"
+          >Груминг-салон</a
+        >
+        <a
+          class="footer-container__link footer-container__link_right"
+          href="./cosmetics.html"
+          >Косметика</a
+        >
+        <a
+          class="footer-container__link footer-container__link_right"
+          href="./news-and-promo.html"
+          >Новости и акции</a
+        >
+        <a
+          class="footer-container__link footer-container__link_right"
+          href="./blog.html"
+          >Блог</a
+        >
+      </div>
+      <div class="footer-container__social">
+        <a href="appstore.com"
+          ><img
+            class="footer-container__apple"
+            src="../assets/social.png"
+            alt="App Store"
+        /></a>
+      </div>
+      <div class="footer-container__block-last">
+        <div class="major-container__social major-container__social_footer">
+          <a href="www.instagram.com"
+            ><img
+              class="major-container__social-img"
+              src="../assets/inst.png"
+              alt="Instagram"
+          /></a>
+          <a href="www.facebook.com"
+            ><img
+              class="major-container__social-img"
+              src="../assets/fb.png"
+              alt="Facebook"
+          /></a>
+          <a href="vk.com"
+            ><img
+              class="major-container__social-img"
+              src="../assets/vk.png"
+              alt="Вконтакте"
+          /></a>
+          <a href="youtube.com"
+            ><img
+              class="major-container__social-img"
+              src="../assets/youtube.png"
+              alt="YouTube"
+          /></a>
+        </div>
+        <div class="footer-container__email">
+        <p> aibolit34.ru <br> aibolit34@gmail.com</p>
+        </div>
+        <div class="footer-container__text">Made with <img class="footer-container__emojy" src="../assets/black-heart.png" alt="Emojy"> from UnitBean</div>
+    </footer>
 
-    <script src="https://kit.fontawesome.com/526f1c28ae.js" crossorigin="anonymous"></script>
-    </body>
+    <script
+      src="https://kit.fontawesome.com/526f1c28ae.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
