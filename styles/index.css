@@ -1,4 +1,4 @@
-.class {
+.nav-container {
     display: flex;
 }
 
@@ -141,4 +141,581 @@
     width: 10%;
     top: 43%;
     left: 63%;
+}
+
+.account {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.account {
+    max-width: 90vw;
+    margin: 0 auto;
+    font-size: "Futura";
+}
+
+.account a:hover {
+    color: #333333;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.account .content {
+    display: flex;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.account .aside {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.account .aside .aside__title {
+    font-size: 3em;
+}
+
+.account .aside .aside__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.account .aside .aside__items {
+    color: #C3B9B5;
+    text-decoration: none;
+}
+
+.account .content .article {
+    width: 90%;
+}
+
+.account .profile-card {
+    border: 1px solid #C3B9B5;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 1fr 50%;
+    margin-bottom: 5%;
+}
+
+.account .profile-card .profile-card__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.account .profile-card .profile-card__change-link {
+    color: rgb(255, 197, 158);
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+.account .profile-card .profile-card__image_empty-field {
+    width: 80%;
+}
+
+.account .my-pets {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.account .my-pets .my-pets__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255, 197, 158);
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    border: rgb(255, 197, 158);
+    border-radius: 10px;
+}
+
+.account .my-pets .my-pets__button:hover {
+    border: 2px solid;
+    transition: 0.7s;
+}
+
+.account .my-pets .my-pets__button:active {
+    transform: translateY(5px);
+}
+
+.account .profile-card .profile-card__required-info {
+    color: #C3B9B5;
+}
+
+.account .profile-card .profile-card__medical-data {
+    border: 1px solid #C3B9B5;
+    border-radius: 5px;
+    height: 10%;
+    box-shadow: 2px 2px 2px #C3B9B5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 2%;
+}
+
+/*------------HISTORY PAGE---------*/
+
+.history-wrapper {
+    border: 1px solid red;
+    width: 76%;
+    margin: auto;
+}
+
+.history-container {
+    display: grid;
+    grid-template-areas: "h-contents h-main-content";
+    grid-template-columns: 38fr 62fr;
+}
+
+.history-contents {
+    grid-area: h-contents;
+    padding-top: 3em;
+}
+
+.history-main-content {
+    grid-area: h-main-content;
+}
+
+.history-main-content__back-word {
+    border: 1px solid red;
+    height: 10vh;
+}
+
+.history-main-content__back-link {
+    color: #FFC59E;
+    font-family: 'Futura New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 20px;
+}
+
+.history-main-content__img-path {
+    margin: 5px 5px 0 0;
+    height: 0.7em;
+}
+
+.history-main-content__back-link {
+    text-decoration: none;
+}
+
+.history-main-content__img {
+    max-width: 100%;
+}
+
+.history-main-content__section {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.history-main-content__img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-main-content__small-img {
+    max-width: 47%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2% 0 2%;
+}
+
+.nav-container__header {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.nav-container__link {
+    text-decoration: none;
+    color: #C3B9B5;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.nav-container__link:hover {
+    text-decoration: underline;
+    color: #C3B9B5;
+}
+
+.nav-container__city-img {
+    width: 12px;
+}
+
+.nav-container__city {
+    display: flex;
+    width: 8%;
+    justify-content: space-between;
+    color: #FFC59E;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.major-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.major-container__list {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    padding-top: 5%;
+
+}
+
+.major-container__list-img {
+    width: 22%;
+}
+
+.major-container__info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2% 0 0 10%;
+}
+
+.major-container__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.major-container__btn {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 18px 4px rgba(255, 197, 158, 0.4);
+    background-color: #FFC59E;
+    color: white;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 20px;
+    height: 190%;
+    width: 40%;
+    cursor: pointer;
+}
+
+.major-container__social {
+    display: flex;
+    width: 40%;
+    margin-top: 25%;
+    justify-content: space-between;
+}
+
+.major-container__social-img {
+    width: 25px;
+}
+
+.major-container__pic {
+    display: flex;
+    width: 39%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+
+}
+
+.major-container__main-img {
+    width: 80%;
+    z-index: 0;
+}
+
+.major-container__phone {
+    position: absolute;
+    right: 3%;
+    bottom: 15%;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    color: #59443F;
+
+}
+
+.service {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: repeat(4, 15%);
+    grid-template-rows: repeat(4, 20%);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 15px;
+    margin-top: 5%;
+
+}
+
+.service__cell {
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(34, 60, 80, 0.12);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+}
+
+.service__img {
+    width: 60%;
+    margin: 0 10px 10px 0;
+}
+
+.service__img_neurology {
+    width: 80%;
+    max-width: 80%;
+}
+
+.service__img_derm,
+.service__img_cardio {
+    width: 95%;
+}
+
+.service__img_orthoped,
+.service__img_visual,
+.service__img_oncolog {
+    width: 75%;
+}
+
+.service__img_ophthalm {
+    width: 130%;
+}
+
+
+.service__img_dentist {
+    width: 110%;
+}
+
+.service__picture_reproduct {
+    width: 480%;
+    margin-left: -120px;
+}
+
+.service__img_lab {
+    width: 85%;
+}
+
+.service__img_endocrin {
+    width: 220%;
+}
+
+
+.service__img_exotic {
+    width: 100%;
+}
+
+.service__img_groom {
+    width: 70%;
+}
+
+.service__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 13px;
+}
+
+.service__picture {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.service__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #59443F;
+}
+
+.service__title:hover {
+    text-decoration: underline;
+}
+
+.service__discrip {
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #59443F;
+}
+
+.main-history {
+    background-color: #FBF8F8;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 6% 0 6% 0
+}
+
+.main-history__title {
+    color: #080606;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.main-history__text {
+    color: #59443F;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.main-history__nextly {
+    color: #FFC59E;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.main-history__nextly:hover {
+    text-decoration: underline;
+}
+
+.achieving {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 10% 0 12% 0;
+    background-image: url(../assets/bird.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position-x: 57%;
+    background-position-y: 85%;
+}
+
+.achieving__number {
+    color: #59443F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 5.2em;
+    margin: 0;
+}
+
+.achieving__text {
+    color: #080606;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.footer-container {
+    background-color: #59443F;
+    display: grid;
+    grid-template-columns: 1fr 15% 15% 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.footer-container__logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.footer-container__img {
+    width: 50%;
+}
+
+.footer-container__download {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+
+.footer-container__block-left {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    padding-left: 9%;
+    margin-top: 5%;
+}
+
+.footer-container__block-center {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+}
+
+.footer-container__block-right {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+}
+
+.footer-container__social {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: flex;
+    align-items: flex-end;
+
+
+}
+
+.footer-container__link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+.footer-container__link:hover {
+    text-decoration: underline;
+}
+
+.footer-container__apple {
+    width: 70%;
+}
+
+.footer-container__block-last {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    flex-direction: column;
+}
+
+.major-container__social_footer {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.footer-container__email,
+.footer-container__text {
+    color: white;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.footer-container__emojy {
+    width: 4%;
 }
