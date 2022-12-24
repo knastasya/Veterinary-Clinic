@@ -19,35 +19,6 @@
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
 
-.account .header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header .header__navigation {
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header .navigation__item {
-    text-decoration: none;
-    color: #C3B9B5;
-} 
-
-.header .navigation__item_black {
-    text-decoration: none;
-    color: black;
-}
-
-.header .header__location {
-    display: flex;
-    justify-content: space-around;
-    width: 10%;
-    align-items: center;
-    color: rgb(255,197,158);
-}
 
 .account .content {
     display: flex;
@@ -55,7 +26,7 @@
     margin: 0 auto;
 }
 
-.content .aside {
+.account .aside {
     width: 30%;
     margin-top: 5%;
 }
