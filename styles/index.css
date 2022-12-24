@@ -1,6 +1,127 @@
 .nav-container {
     display: flex;
-<<<<<<< HEAD
+}
+
+.account {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.account {
+    max-width: 90vw;
+    margin: 0 auto;
+    font-size: "Futura";
+}
+
+.account a:hover {
+    color: #333333;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.account .content {
+    display: flex;
+    max-width: 75vw;
+    margin: 0 auto;
+}
+
+.account .aside {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.account .aside .aside__title {
+    font-size: 3em;
+}
+
+.account .aside .aside__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.account .aside .aside__items {
+    color: #C3B9B5;
+    text-decoration: none;
+}
+
+.account .content .article {
+    width: 90%;
+}
+
+.account .profile-card {
+    border: 1px solid #C3B9B5;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 1fr 50%;
+    margin-bottom: 5%;
+}
+
+.account .profile-card .profile-card__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.account .profile-card .profile-card__change-link {
+    color: rgb(255,197,158);
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+.account .profile-card .profile-card__image_empty-field {
+    width: 80%;
+}
+
+.account .my-pets {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.account .my-pets .my-pets__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(255,197,158);
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    border: rgb(255,197,158);
+    border-radius: 10px;
+}
+
+.account .my-pets .my-pets__button:hover {
+    border: 2px solid;
+    transition: 0.7s;
+}
+
+.account .my-pets .my-pets__button:active {
+    transform: translateY(5px);
+}
+
+.account .profile-card .profile-card__required-info {
+    color: #C3B9B5;
+}
+
+.account .profile-card .profile-card__medical-data {
+    border: 1px solid #C3B9B5;
+    border-radius: 5px;
+    height: 10%;
+    box-shadow: 2px 2px 2px #C3B9B5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: 2%;
 }
 
 /*------------HISTORY PAGE---------*/
