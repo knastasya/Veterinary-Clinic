@@ -2,6 +2,147 @@
     display: flex;
 }
 
+
+
+
+/*blog webpage*/
+.logo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.nav {
+    position: absolute;
+    margin-left: 30%;
+    top: 11%;
+    font-family: 'Futura New', sans-serif;
+    font-style: normal;
+    color: #C3B9B5;
+    text-decoration: none;
+
+}
+
+.nav2 {
+
+    font-family: 'Futura New', sans-serif;
+    font-style: normal;
+    color: #C3B9B5;
+    margin-left: 130px;
+    margin-top: 180px;
+    list-style-type: none;
+}
+
+.nav-link {
+    color: #C3B9B5;
+
+}
+
+.text {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 100px;
+    font-family: 'SchoolBook';
+    font-style: normal;
+    color: #080606;
+}
+
+.blog_container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 40%;
+    top: 30%;
+}
+
+.square,
+.square2,
+.square3,
+.square4,
+.square5 {
+
+    height: 180px;
+    width: 180px;
+    background-color: #9076FE;
+    border-radius: 20px;
+
+    position: relative;
+}
+
+.text_ambulance {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+
+}
+
+.text_vaccination {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: white;
+}
+
+.text_x-ray {
+
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: white;
+}
+
+.text_food {
+
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+.text_calendar {
+
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    color: white;
+}
+
+.ambulance {
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 80%;
+}
+
+.mask-face {
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 65%;
+
+}
+
+.x-ray {
+    position: absolute;
+    width: 10%;
+    top: 43%;
+    left: 63%;
+}
+
+.food {
+    position: absolute;
+    width: 18%;
+    top: 43%;
+    left: 77%;
+}
+
+.calendar {
+    position: absolute;
+    width: 10%;
+    top: 43%;
+    left: 63%;
+}
+
 .account {
     box-sizing: border-box;
     text-decoration: none;
@@ -70,7 +211,7 @@
 }
 
 .account .profile-card .profile-card__change-link {
-    color: rgb(255,197,158);
+    color: rgb(255, 197, 158);
     margin-top: 5%;
     text-decoration: none;
 }
@@ -90,11 +231,11 @@
     justify-content: center;
     padding: 10px;
     width: 100%;
-    background-color: rgb(255,197,158);
+    background-color: rgb(255, 197, 158);
     color: white;
     font-size: 1.7em;
     font-weight: bold;
-    border: rgb(255,197,158);
+    border: rgb(255, 197, 158);
     border-radius: 10px;
 }
 
