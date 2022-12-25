@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!--язык русский?-->
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,11 +8,8 @@
     <!-- пути указаны верно:)-->
     <link rel="stylesheet" href="../styles/normalize.css" />
     <link rel="stylesheet" href="../styles/index.css" />
-    <link
-      href="../styles/fonts/future-new/stylesheet.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="../styles/fonts/future-new/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="../assets/icon.png" />
   </head>
   <body>
     <header class="nav-container">
@@ -22,22 +18,14 @@
       </div>
       <div class="nav-container__position">
         <div class="nav-container__links">
-          <a class="nav-container__link" href="./account.html"
-            >Личный кабинет</a
-          >
+          <a class="nav-container__link" href="./account.html">Личный кабинет</a>
           <a class="nav-container__link" href="./about-us.html">О нас</a>
-          <a class="nav-container__link" href="./news-and-promo.html"
-            >Новости и акции</a
-          >
+          <a class="nav-container__link" href="./news-and-promo.html">Новости и акции</a>
           <a class="nav-container__link" href="./contacts.html">Контакты</a>
           <a class="nav-container__link" href="./blog.html">Блог</a>
         </div>
         <div class="nav-container__city">
-          <img
-            class="nav-container__city-img"
-            src="../assets/places.png"
-            alt="Город"
-          />Волгоград
+          <img class="nav-container__city-img" src="../assets/places.png" alt="Город" />Волгоград
         </div>
       </div>
     </header>
@@ -45,44 +33,36 @@
       <main>
         <div class="history-container">
           <div class="history-contents">
-            <!--ДОБАВИТЬ РАЗРЫВ СТРОКИ И МАРДЖИН СНИЗУ-->
-            <h1>История компании</h1>
-            <!--ДОБАВИТЬ СТИЛИ НА ЗАГОЛОВКИ-->
-            <h2>Подзаголовок 1</h2>
-            <h2>Подзаголовок 2</h2>
-            <h2>Подзаголовок 3</h2>
+            <h1 class="history-contents__title">История компании</h1>
+            <h2 class="history-contents__subtitle">
+              <a class="history-contents__subtitle" href="#part1">ПОДЗАГОЛОВОК 1</a>
+            </h2>
+            <h2 class="history-contents__subtitle">
+              <a class="history-contents__subtitle" href="#part2">ПОДЗАГОЛОВОК 2</a>
+            </h2>
+            <h2 class="history-contents__subtitle">
+              <a class="history-contents__subtitle" href="#part3">ПОДЗАГОЛОВОК 3</a>
+            </h2>
           </div>
           <div class="history-main-content">
             <div class="history-main-content__back-word">
-              <a class="history-main-content__back-link" href="#">
-                <img
-                  class="history-main-content__img-path"
-                  src="../assets/history-path-left.svg"
-                  alt="Стрелка влево"
-                />
-                <!--&lt;-->
+              <a class="history-main-content__back-link" href="../index.html">
+                <img class="history-main-content__img-path" src="../assets/history-path-left.svg" alt="Стрелка влево" />
                 НАЗАД</a
               >
             </div>
 
-            <img
-              class="history-main-content__img"
-              src="../assets/history_big_cat.png"
-              alt="Изображение кота"
-            />
+            <img class="history-main-content__img" src="../assets/history_big_cat.png" alt="Изображение кота" />
 
             <div class="history-main-content__section">
-              <div class="history-main-content__article-1">
-                <h2>Подзаголовок 1</h2>
-                <p>
-                  Терапия - область гуманной и ветеринарной медицины,
-                  занимающаяся непосредственно лечением патологий, облегчением
-                  состояния больного и устранением симптомов заболеваний.
+              <div>
+                <h2 class="history-main-content__subtitle" id="part1">Подзаголовок 1</h2>
+                <p class="history-main-content__text">
+                  Терапия - область гуманной и ветеринарной медицины, занимающаяся непосредственно лечением патологий,
+                  облегчением состояния больного и устранением симптомов заболеваний.
                 </p>
-                <!--ОБЕРНУТЬ В СПИСОК?-->
-                <p>
-                  Терапевтическое отделение клиники Айболит занимается
-                  диагностикой и лечением следующих болезней:
+                <p class="history-main-content__text">
+                  Терапевтическое отделение клиники Айболит занимается диагностикой и лечением следующих болезней:
                   <br />
                   - органов пищеварения;<br />
                   - органов сердечно-сосудистой системы;<br />
@@ -98,44 +78,36 @@
                   - токсикологической природы.
                 </p>
               </div>
-              <div class="history-main-content__article-2">
-                <h2>Подзаголовок 2</h2>
-                <p>
-                  В нашей клинике имеются как врачи-терапевты общей практики,
-                  так и узкие специалисты по ряду перечисленных областей, что
-                  дает возможность излечивать тяжелые и редкие случаи патологий
+              <div>
+                <h2 class="history-main-content__subtitle" id="part2">Подзаголовок 2</h2>
+                <p class="history-main-content__text">
+                  В нашей клинике имеются как врачи-терапевты общей практики, так и узкие специалисты по ряду
+                  перечисленных областей, что дает возможность излечивать тяжелые и редкие случаи патологий
                 </p>
                 <div class="history-main-content__img-container">
                   <img
                     class="history-main-content__small-img"
                     src="../assets/history_small_cat.png"
-                    alt="Изображение кота"
-                  />
+                    alt="Изображение кота" />
                   <img
                     class="history-main-content__small-img"
                     src="../assets/history_small_dog.png"
-                    alt="Изображение собаки"
-                  />
+                    alt="Изображение собаки" />
                 </div>
-                <p>
-                  Врач-терапевт подходит к лечению животного комплексно,
-                  предварительно изучив его анамнез, учитывая возраст, пол,
-                  породу, наличие хронических болезней, условия содержания, типа
-                  кормления, оценив общее состояние питомца, полностью осмотрев
-                  его и назначив необходимую диагностику и соответствующее
+                <p class="history-main-content__text">
+                  Врач-терапевт подходит к лечению животного комплексно, предварительно изучив его анамнез, учитывая
+                  возраст, пол, породу, наличие хронических болезней, условия содержания, типа кормления, оценив общее
+                  состояние питомца, полностью осмотрев его и назначив необходимую диагностику и соответствующее
                   лечение.
                 </p>
-                <p>
-                  Врачи клиники имеют широкий спектр диагностических
-                  возможностей, что является идеальным условием для постановки
-                  точного диагноза, а значит и назначения того лечения, которое
-                  наиболее эффективно справится с данным конкретным клиническим
-                  случаем.
+                <p class="history-main-content__text">
+                  Врачи клиники имеют широкий спектр диагностических возможностей, что является идеальным условием для
+                  постановки точного диагноза, а значит и назначения того лечения, которое наиболее эффективно справится
+                  с данным конкретным клиническим случаем.
                 </p>
-                <p>
-                  Некоторую диагностику можно провести тут же на месте в течение
-                  буквально нескольких минут, что немаловажно для экстренных
-                  случаев и значительно экономят время владельцам: <br />
+                <p class="history-main-content__text">
+                  Некоторую диагностику можно провести тут же на месте в течение буквально нескольких минут, что
+                  немаловажно для экстренных случаев и значительно экономят время владельцам: <br />
                   - гематологический и биохимический анализы крови;<br />
                   - исследование Т4 и кортизол;<br />
                   - анализ газов крови;<br />
@@ -146,35 +118,28 @@
                   - экспресс-анализы на основные вирусные заболевания.
                 </p>
               </div>
-              <div class="history-main-content__article-3">
-                <h2>Подзаголовок 3</h2>
-                <p>
-                  Большинство исследований, требующих седации (эндоскопия, МРТ,
-                  лапароскопия), так же доступны в течение суток. Более сложные
-                  анализы, такие как бактериологический посев, гормоны,
-                  гистологическое исследование мы направляем в дистанционную
-                  лабораторию.
+              <div>
+                <h2 class="history-main-content__subtitle" id="part3">Подзаголовок 3</h2>
+                <p class="history-main-content__text">
+                  Большинство исследований, требующих седации (эндоскопия, МРТ, лапароскопия), так же доступны в течение
+                  суток. Более сложные анализы, такие как бактериологический посев, гормоны, гистологическое
+                  исследование мы направляем в дистанционную лабораторию.
                 </p>
-                <p>
-                  Получив результаты исследований врач приступает к анализу
-                  причин и механизмов развития болезни и назначает лечение. Оно
-                  может быть медикаментозным (домашним или стационарным) или
-                  оперативным (экстренным или плановым).
+                <p class="history-main-content__text">
+                  Получив результаты исследований врач приступает к анализу причин и механизмов развития болезни и
+                  назначает лечение. Оно может быть медикаментозным (домашним или стационарным) или оперативным
+                  (экстренным или плановым).
                 </p>
-                <p>
-                  Эффективность терапии в большой степени зависит и от владельца
-                  животного, ведь именно ему необходимо будет соблюдать
-                  предписания врача, вовремя давать препараты или ставить уколы,
-                  следить за развитием динамики и симптомов, чтобы вовремя
-                  оповестить врача о происходящих изменениях, для своевременной
+                <p class="history-main-content__text">
+                  Эффективность терапии в большой степени зависит и от владельца животного, ведь именно ему необходимо
+                  будет соблюдать предписания врача, вовремя давать препараты или ставить уколы, следить за развитием
+                  динамики и симптомов, чтобы вовремя оповестить врача о происходящих изменениях, для своевременной
                   коррекции лечения.
                 </p>
-                <p>
-                  Кроме лечения терапевты занимаются и профилактикой
-                  заболеваний. Доктора с удовольствием расскажут вам основы
-                  выращивания, содержания и кормления питомца, графики
-                  дегельминтизаций и прививок. Оформят ветеринарный паспорт и
-                  чипируют ваше животное.
+                <p class="history-main-content__text">
+                  Кроме лечения терапевты занимаются и профилактикой заболеваний. Доктора с удовольствием расскажут вам
+                  основы выращивания, содержания и кормления питомца, графики дегельминтизаций и прививок. Оформят
+                  ветеринарный паспорт и чипируют ваше животное.
                 </p>
               </div>
             </div>
@@ -184,18 +149,11 @@
     </div>
     <footer class="footer-container">
       <div class="footer-container__logo">
-        <img
-          class="footer-container__img"
-          src="../assets/logo-footer.png"
-          alt="Logo"
-        />
+        <img class="footer-container__img" src="../assets/logo-footer.png" alt="Logo" />
       </div>
       <div class="footer-container__download"></div>
       <div class="footer-container__block-left">
-        <a
-          class="footer-container__link footer-container__link_left"
-          href="./policy.html"
-        >
+        <a class="footer-container__link footer-container__link_left" href="./policy.html">
           Политика <br />
           конфиденциальности в <br />
           отношении обработки <br />
@@ -203,112 +161,48 @@
         >
       </div>
       <div class="footer-container__block-center">
-        <a
-          class="footer-container__link footer-container__link_center"
-          href="../index.html"
-          >Главная</a
-        >
-        <a
-          class="footer-container__link footer-container__link_center"
-          href="./price.html"
-          >Услуги и цены</a
-        >
-        <a
-          class="footer-container__link footer-container__link_center"
-          href="./history.html"
-          >История компании</a
-        >
-        <a
-          class="footer-container__link footer-container__link_center"
-          href="./about-us.html"
-          >Наши специалисты</a
-        >
-        <a
-          class="footer-container__link footer-container__link_center"
-          href="./vacancy.html"
-          >Вакансии</a
-        >
-        <a
-          class="footer-container__link footer-container__link_center"
-          href="./details.html"
-          >Реквизиты</a
-        ><a
-          class="footer-container__link footer-container__link_center"
-          href="./online-payment.html"
-          >Онлайн-оплата</a
-        >
+        <a class="footer-container__link footer-container__link_center" href="../index.html">Главная</a>
+        <a class="footer-container__link footer-container__link_center" href="./price.html">Услуги и цены</a>
+        <a class="footer-container__link footer-container__link_center" href="./history.html">История компании</a>
+        <a class="footer-container__link footer-container__link_center" href="./about-us.html">Наши специалисты</a>
+        <a class="footer-container__link footer-container__link_center" href="./vacancy.html">Вакансии</a>
+        <a class="footer-container__link footer-container__link_center" href="./details.html">Реквизиты</a
+        ><a class="footer-container__link footer-container__link_center" href="./online-payment.html">Онлайн-оплата</a>
       </div>
       <div class="footer-container__block-right">
-        <a
-          class="footer-container__link footer-container__link_right"
-          href="./reviews.html"
-          >Отзывы</a
-        >
-        <a
-          class="footer-container__link footer-container__link_right"
-          href="./contacts.html"
-          >Контакты</a
-        >
-        <a
-          class="footer-container__link footer-container__link_right"
-          href="./grooming.html"
-          >Груминг-салон</a
-        >
-        <a
-          class="footer-container__link footer-container__link_right"
-          href="./cosmetics.html"
-          >Косметика</a
-        >
-        <a
-          class="footer-container__link footer-container__link_right"
-          href="./news-and-promo.html"
-          >Новости и акции</a
-        >
-        <a
-          class="footer-container__link footer-container__link_right"
-          href="./blog.html"
-          >Блог</a
-        >
+        <a class="footer-container__link footer-container__link_right" href="./reviews.html">Отзывы</a>
+        <a class="footer-container__link footer-container__link_right" href="./contacts.html">Контакты</a>
+        <a class="footer-container__link footer-container__link_right" href="./grooming.html">Груминг-салон</a>
+        <a class="footer-container__link footer-container__link_right" href="./cosmetics.html">Косметика</a>
+        <a class="footer-container__link footer-container__link_right" href="./news-and-promo.html">Новости и акции</a>
+        <a class="footer-container__link footer-container__link_right" href="./blog.html">Блог</a>
       </div>
       <div class="footer-container__social">
-        <a href="appstore.com"
-          ><img
-            class="footer-container__apple"
-            src="../assets/social.png"
-            alt="App Store"
-        /></a>
+        <a href="appstore.com"><img class="footer-container__apple" src="../assets/social.png" alt="App Store" /></a>
       </div>
       <div class="footer-container__block-last">
         <div class="major-container__social major-container__social_footer">
           <a href="www.instagram.com"
-            ><img
-              class="major-container__social-img"
-              src="../assets/inst.png"
-              alt="Instagram"
+            ><img class="major-container__social-img" src="../assets/inst.png" alt="Instagram"
           /></a>
           <a href="www.facebook.com"
-            ><img
-              class="major-container__social-img"
-              src="../assets/fb.png"
-              alt="Facebook"
+            ><img class="major-container__social-img" src="../assets/fb.png" alt="Facebook"
           /></a>
-          <a href="vk.com"
-            ><img
-              class="major-container__social-img"
-              src="../assets/vk.png"
-              alt="Вконтакте"
-          /></a>
+          <a href="vk.com"><img class="major-container__social-img" src="../assets/vk.png" alt="Вконтакте" /></a>
           <a href="youtube.com"
-            ><img
-              class="major-container__social-img"
-              src="../assets/youtube.png"
-              alt="YouTube"
+            ><img class="major-container__social-img" src="../assets/youtube.png" alt="YouTube"
           /></a>
         </div>
-        <div class="footer-container__email">
-        <p> aibolit34.ru <br> aibolit34@gmail.com</p>
-        </div>
-        <div class="footer-container__text">Made with <img class="footer-container__emojy" src="../assets/black-heart.png" alt="Emojy"> from UnitBean</div>
+      
+      <div class="footer-container__email">
+        <p>
+          aibolit34.ru <br />
+          aibolit34@gmail.com
+        </p>
+      </div>
+      <div class="footer-container__text">
+        Made with <img class="footer-container__emojy" src="../assets/black-heart.png" alt="Emojy" /> from UnitBean
+      </div>
     </footer>
   </body>
 </html>
