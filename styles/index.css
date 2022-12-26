@@ -284,6 +284,35 @@
     align-items: center;
 }
 
+/*--------------------------------------MAIN PAGE------------------------------------------*/
+
+.nav-container__link,
+.nav-container__city,
+.major-container__btn,
+.major-container__phone,
+.service__discrip,
+.main-history__text,
+.main-history__nextly,
+.achieving__text,
+.choice__text,
+.mobile-version__soon,
+.contacts__text,
+.contacts__btn,
+.footer-container__link,
+.footer-container__email,
+.footer-container__text {
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+}
+
+.major-container__title,
+.service__title,
+.main-history__title,
+.choice__title,
+.mobile-version__title,
+.contacts__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
@@ -308,7 +337,6 @@
 .nav-container__link {
     text-decoration: none;
     color: #C3B9B5;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.9em;
 }
@@ -324,7 +352,6 @@
     align-items: center;
     justify-content: space-between;
     color: #FFC59E;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.9em;
     cursor: pointer;
@@ -359,7 +386,6 @@
 }
 
 .major-container__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 3em;
 }
@@ -370,7 +396,6 @@
     box-shadow: 0px 0px 18px 4px rgba(255, 197, 158, 0.4);
     background-color: #FFC59E;
     color: white;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.9em;
     line-height: 20px;
@@ -409,7 +434,6 @@
     position: absolute;
     right: 3%;
     bottom: 15%;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.8em;
     color: #59443F;
@@ -503,7 +527,6 @@
 }
 
 .service__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.2em;
     color: #59443F;
@@ -514,7 +537,6 @@
 }
 
 .service__discrip {
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 0.8em;
     color: #59443F;
@@ -531,7 +553,6 @@
 
 .main-history__title {
     color: #080606;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.3em;
     margin: 0;
@@ -539,14 +560,12 @@
 
 .main-history__text {
     color: #59443F;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1em;
 }
 
 .main-history__nextly {
     color: #FFC59E;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.1em;
     text-decoration: none;
@@ -579,7 +598,6 @@
 
 .achieving__text {
     color: #080606;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 2.5em;
     line-height: 1.5;
@@ -613,7 +631,6 @@
 }
 
 .choice__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 1.3em;
 }
@@ -639,7 +656,6 @@
 
 
 .choice__text {
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1em;
     margin-top: 0;
@@ -671,7 +687,6 @@
 }
 
 .mobile-version__soon {
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.7em;
     line-height: 1.5;
@@ -679,7 +694,6 @@
 }
 
 .mobile-version__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 2.5em;
     margin: 0;
@@ -718,7 +732,6 @@
 }
 
 .contacts__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.4em;
 
@@ -733,7 +746,6 @@
 .contacts__title_small-two {
     margin-top: 25%;
 }
-
 
 .contacts__address-img {
     width: 1em;
@@ -751,7 +763,6 @@
 }
 
 .contacts__text {
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     color: rgba(89, 68, 63, 1);
     font-weight: 300;
     font-size: 1em;
@@ -795,7 +806,6 @@
     box-shadow: 0px 0px 15px 3px lightgray;
     background-color: white;
     color: black;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 0.9em;
     line-height: 20px;
@@ -811,9 +821,7 @@
 
 .contacts__btn-place {
     width: 12%;
-
 }
-
 
 .footer-container {
     background-color: #59443F;
@@ -870,14 +878,11 @@
     grid-row: 1/2;
     display: flex;
     align-items: flex-end;
-
-
 }
 
 .footer-container__link {
     text-decoration: none;
     color: white;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     line-height: 1.5;
@@ -905,7 +910,6 @@
 .footer-container__email,
 .footer-container__text {
     color: white;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     line-height: 1.5;
