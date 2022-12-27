@@ -1,10 +1,69 @@
-.blog_container {
+/*blog page*/
+
+.blog_main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.blog_text {
+    position: relative;
+    top: 90pt;
+    left: 150pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.blog_nav {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    margin-left: 40%;
-    top: 30%;
+    list-style-type: none;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 200pt;
+    margin-left: 35pt;
+    width: 20%;
 }
+
+.blog_container_cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    margin-left: 0pt;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+/*news and promo page*/
+
+.news_main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news_text {
+    position: relative;
+    top: 90pt;
+    left: 130pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3em;
+
+}
+
+.news_container {
+    margin-left: 400pt;
+    margin-bottom: 5%;
+}
+
 
 .square,
 .square2,
@@ -16,7 +75,6 @@
     width: 180px;
     background-color: #9076FE;
     border-radius: 20px;
-
     position: relative;
 }
 
@@ -94,6 +152,8 @@
     top: 43%;
     left: 63%;
 }
+
+/*account page*/
 
 .account {
     box-sizing: border-box;
