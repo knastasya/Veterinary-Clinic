@@ -284,6 +284,36 @@
     align-items: center;
 }
 
+/*--------------------------------------MAIN PAGE------------------------------------------*/
+
+.nav-container__link,
+.nav-container__city,
+.major-container__btn,
+.major-container__phone,
+.service__discrip,
+.main-history__text,
+.main-history__nextly,
+.achieving__text,
+.choice__text,
+.mobile-version__soon,
+.contacts__text,
+.contacts__btn,
+.footer-container__link,
+.footer-container__email,
+.footer-container__text,
+.major-container__page {
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+}
+
+.major-container__title,
+.service__title,
+.main-history__title,
+.choice__title,
+.mobile-version__title,
+.contacts__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
@@ -308,9 +338,8 @@
 .nav-container__link {
     text-decoration: none;
     color: #C3B9B5;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 .nav-container__link:hover {
@@ -324,9 +353,8 @@
     align-items: center;
     justify-content: space-between;
     color: #FFC59E;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.9em;
     cursor: pointer;
 }
 
@@ -339,16 +367,30 @@
     flex-wrap: wrap;
 }
 
+
 .major-container__list {
     display: flex;
-    justify-content: center;
-    width: 10%;
-    padding-top: 5%;
-
+    width: 12%;
+    padding-top: 4%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.major-container__list-img {
-    width: 22%;
+.major-container__page {
+    padding: 9%;
+    font-weight: 700;
+    color: rgba(195, 185, 181, 1);
+    cursor: pointer;
+}
+
+.major-container__page_black {
+    color: #080606;
+    background-image: url(../assets/ellipse.png);
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 47%;
 }
 
 .major-container__info {
@@ -359,7 +401,6 @@
 }
 
 .major-container__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 3em;
 }
@@ -370,9 +411,8 @@
     box-shadow: 0px 0px 18px 4px rgba(255, 197, 158, 0.4);
     background-color: #FFC59E;
     color: white;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 20px;
     height: 190%;
     width: 40%;
@@ -392,15 +432,14 @@
 
 .major-container__pic {
     display: flex;
-    width: 39%;
+    width: 37%;
     justify-content: flex-end;
     align-items: flex-end;
     flex-grow: 1;
-
 }
 
 .major-container__main-img {
-    width: 80%;
+    width: 90%;
     z-index: 0;
     cursor: pointer;
 }
@@ -409,7 +448,6 @@
     position: absolute;
     right: 3%;
     bottom: 15%;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.8em;
     color: #59443F;
@@ -503,7 +541,6 @@
 }
 
 .service__title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.2em;
     color: #59443F;
@@ -514,7 +551,6 @@
 }
 
 .service__discrip {
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 0.8em;
     color: #59443F;
@@ -531,7 +567,6 @@
 
 .main-history__title {
     color: #080606;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 1.3em;
     margin: 0;
@@ -539,14 +574,12 @@
 
 .main-history__text {
     color: #59443F;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1em;
 }
 
 .main-history__nextly {
     color: #FFC59E;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.1em;
     text-decoration: none;
@@ -579,11 +612,229 @@
 
 .achieving__text {
     color: #080606;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 2.5em;
     line-height: 1.5;
     margin: 0;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 3%;
+
+}
+
+.choice__container-cells {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 90%;
+    padding: 2% 10% 10% 10%;
+    grid-gap: 5%;
+}
+
+
+.choice__info {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+
+}
+
+.choice__title {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.choice__cell-img {
+    width: 25%;
+    padding-right: 6%;
+    padding-top: 10%;
+}
+
+.choice__cell-img_small {
+    width: 20%;
+}
+
+.choice__cell-img_tight {
+    padding-right: 0;
+}
+
+.choice__cell-img_large {
+    width: 40%;
+    padding-right: 11%;
+}
+
+
+.choice__text {
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.choice__text_right {
+    padding-left: 20%;
+    margin-bottom: 14%;
+}
+
+.mobile-version {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #FFC59E;
+    color: white;
+    background-image: url(../assets/dog.png);
+    background-repeat: no-repeat;
+    background-size: 17%;
+    background-position-x: 58%;
+    background-position-y: 65%;
+}
+
+.mobile-version__info {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 7% 0 13% 23%;
+}
+
+.mobile-version__soon {
+    font-weight: 300;
+    font-size: 0.7em;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.mobile-version__title {
+    font-weight: 400;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.mobile-version__social-img {
+    width: 45%;
+    padding-top: 8%;
+    cursor: pointer;
+}
+
+.mobile-version__screen-img {
+    width: 60%;
+}
+
+.mobile-version__screen {
+    margin-top: 5%;
+    margin-right: 14%;
+}
+
+.contacts {
+    display: flex;
+    width: 100%;
+}
+
+.contacts__container-info {
+    display: flex;
+    width: 100%;
+}
+
+.contacts__info {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 5% 0 8% 15%
+}
+
+.contacts__title {
+    font-weight: 400;
+    font-size: 1.4em;
+
+}
+
+.contacts__title_small {
+    font-size: 1.1em;
+    padding-bottom: 1%;
+
+}
+
+.contacts__title_small-two {
+    margin-top: 25%;
+}
+
+.contacts__address-img {
+    width: 1em;
+    padding-right: 4%;
+}
+
+.contacts__phone-img {
+    width: 1.3em;
+    padding-right: 4%;
+}
+
+.contacts__clock-img {
+    width: 1.4em;
+    padding-right: 4%;
+}
+
+.contacts__text {
+    color: rgba(89, 68, 63, 1);
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5;
+    padding-bottom: 3%;
+    display: flex;
+}
+
+.contacts__imgs {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    justify-content: space-between;
+    padding-top: 1%;
+    height: 126%;
+}
+
+.contacts__text-position {
+    display: flex;
+    flex-direction: column;
+    height: 130%;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.contacts__map {
+    background-image: url(../assets/map.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: 20%;
+    background-position-y: 60%;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.contacts__btn {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px 3px lightgray;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 20px;
+    height: 6%;
+    width: 18%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-right: 20%;
+}
+
+.contacts__btn-place {
+    width: 12%;
 }
 
 .footer-container {
@@ -641,14 +892,11 @@
     grid-row: 1/2;
     display: flex;
     align-items: flex-end;
-
-
 }
 
 .footer-container__link {
     text-decoration: none;
     color: white;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     line-height: 1.5;
@@ -676,7 +924,6 @@
 .footer-container__email,
 .footer-container__text {
     color: white;
-    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 0.8em;
     line-height: 1.5;
