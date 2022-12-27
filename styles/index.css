@@ -284,7 +284,6 @@
 /*------------HISTORY PAGE---------*/
 
 .history-wrapper {
-    border: 1px solid red;
     width: 76%;
     margin: auto;
 }
@@ -297,7 +296,24 @@
 
 .history-contents {
     grid-area: h-contents;
-    padding-top: 3em;
+    padding-top: 20vh;
+}
+
+.history-contents__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.history-contents__subtitle {
+    text-decoration: none;
+    color: #C3B9B5;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 2.3em;
 }
 
 .history-main-content {
@@ -305,26 +321,24 @@
 }
 
 .history-main-content__back-word {
-    border: 1px solid red;
-    height: 10vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
 }
 
 .history-main-content__back-link {
     color: #FFC59E;
-    font-family: 'Futura New';
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.25em;
+    font-size: 1.2em;
     line-height: 20px;
+    text-decoration: none;
 }
 
 .history-main-content__img-path {
     margin: 5px 5px 0 0;
     height: 0.7em;
-}
-
-.history-main-content__back-link {
-    text-decoration: none;
 }
 
 .history-main-content__img {
@@ -335,6 +349,22 @@
     display: flex;
     flex-direction: column;
     gap: 3em;
+}
+
+.history-main-content__subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.history-main-content__text {
+    color: #59443F;
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 20px;
+    line-height: 1.9em;
 }
 
 .history-main-content__img-container {
