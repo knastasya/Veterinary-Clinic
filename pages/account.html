@@ -13,6 +13,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="shortcut icon" href="../assets/logo-header.png" type="img/png">
   </head>
   <body>
     <header class="nav-container">
@@ -41,41 +42,41 @@
       </div>
     </header>
     <div class="account">
-      <main class="content">
-        <aside class="aside">
-          <h1 class="aside__title">Виктория</h1>
-          <ul class="aside__menu">
-            <li><a class="aside__items" href="#">ЛИЧНЫЕ ДАННЫЕ</a></li>
-            <li><a class="aside__items" href="#">МОИ ПИТОМЦЫ</a></li>
-            <li><a class="aside__items" href="#">ЗАПИСЬ НА ПРИЕМ</a></li>
-            <li><a class="aside__items" href="#">ВЫЙТИ</a></li>
+      <main class="account-content">
+        <aside class="account-aside">
+          <h1 class="account-aside__title">Виктория</h1>
+          <ul class="account-aside__menu">
+            <li><a class="account-aside__items" href="#part1">ЛИЧНЫЕ ДАННЫЕ</a></li>
+            <li><a class="account-aside__items" href="#part2">МОИ ПИТОМЦЫ</a></li>
+            <li><a class="account-aside__items" href="#part3">ЗАПИСЬ НА ПРИЕМ</a></li>
+            <li><a class="account-aside__items" href="#">ВЫЙТИ</a></li>
           </ul>
         </aside>
-        <article class="article">
+        <article class="account-article">
           <section>
-            <h2>Личные данные</h2>
-            <div class="profile-card">
-              <div class="profile-card__image">
+            <h2 id="part1">Личные данные</h2>
+            <div class="account-article__profile-card">
+              <div class="account-article__profile-image-field">
                 <img
-                  class="profile-card__image_empty-field"
+                  class="account-article__profile-image"
                   src="../assets/profile_image_empty.PNG"
                   alt="profile picture"
                 />
-                <a class="profile-card__change-link" href="#">изменить</a>
+                <a class="account-article__change-link" href="#">изменить</a>
               </div>
               <div>
-                <p class="profile-card__required-info">имя</p>
-                <p class="profile-card__description">Виктория</p>
-                <p class="profile-card__required-info">фамилия</p>
-                <p class="profile-card__description">Иванова</p>
-                <p class="profile-card__required-info">отчетсво</p>
-                <p class="profile-card__description">Александровна</p>
-                <p class="profile-card__required-info">телефон</p>
-                <p class="profile-card__description">+7 999 598-12-45</p>
+                <p class="account-article__required-info">имя</p>
+                <p class="account-article__description">Виктория</p>
+                <p class="account-article__required-info">фамилия</p>
+                <p class="account-article__description">Иванова</p>
+                <p class="account-article__required-info">отчетсво</p>
+                <p class="account-article__description">Александровна</p>
+                <p class="account-article__required-info">телефон</p>
+                <p class="account-article__description">+7 999 598-12-45</p>
               </div>
               <div>
-                <p class="profile-card__required-info">О себе</p>
-                <p class="profile-card__description">
+                <p class="account-article__required-info">О себе</p>
+                <p class="account-article__description">
                   Живу в Волгограде, очень люблю животных! Мечтаю завести много
                   зверей и построить приют. Пока что у меня собака, кошка и
                   рыбки :)
@@ -83,151 +84,151 @@
               </div>
             </div>
           </section>
-          <section class="my-pets">
-            <h2>Мои питомцы</h2>
-            <button class="my-pets__button" type="button">
+          <section class="account-article__my-pets">
+            <h2 id="part2">Мои питомцы</h2>
+            <button class="account-article__button" type="button">
               <img
                 src="../assets/button_pic.PNG"
                 alt="button picture add pet"
               />&nbsp;&nbsp;ДОБАВИТЬ НОВОГО ПИТОМЦА
             </button>
           </section>
-          <section class="profile-card">
-            <div class="profile-card__image">
-              <img src="../assets/dog_image.png" alt="doggy pic" />
-              <a class="profile-card__change-link" href="#">изменить</a>
+          <section class="account-article__profile-card">
+            <div class="account-article__profile-image-field">
+              <img class="account-article__profile-image" src="../assets/dog_image.png" alt="doggy pic" />
+              <a class="account-article__change-link" href="#">изменить</a>
             </div>
             <div>
               <h2>Громопетр</h2>
               <div>
-                <p class="profile-card__required-info">тип</p>
-                <p class="profile-card__description">Собака</p>
+                <p class="account-article__required-info">тип</p>
+                <p class="account-article__description">Собака</p>
               </div>
               <div>
-                <p class="profile-card__required-info">пол</p>
-                <p class="profile-card__description">Мужской</p>
+                <p class="account-article__required-info">пол</p>
+                <p class="account-article__description">Мужской</p>
               </div>
               <div>
-                <p class="profile-card__required-info">порода</p>
-                <p class="profile-card__description">Без породы</p>
+                <p class="account-article__required-info">порода</p>
+                <p class="account-article__description">Без породы</p>
               </div>
               <div>
-                <p class="profile-card__required-info">возраст</p>
-                <p class="profile-card__description">1 год 2 месяца</p>
+                <p class="account-article__required-info">возраст</p>
+                <p class="account-article__description">1 год 2 месяца</p>
               </div>
             </div>
             <div>
-              <p class="profile-card__required-info">медицинская карта</p>
-              <div class="profile-card__medical-data">
+              <p class="account-article__required-info">медицинская карта</p>
+              <div class="account-article__medical-data">
                 <p>
                   <i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;10255
                 </p>
-                <p class="profile-card__required-info">обновлена 25.06.19</p>
+                <p class="account-article__required-info">обновлена 25.06.19</p>
               </div>
-              <p class="profile-card__required-info">результаты анализов</p>
-              <div class="profile-card__medical-data">
+              <p class="account-article__required-info">результаты анализов</p>
+              <div class="account-article__medical-data">
                 <p>
                   <i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;ОАК
                 </p>
-                <p class="profile-card__required-info">25.06.19</p>
+                <p class="account-article__required-info">25.06.19</p>
               </div>
-              <div class="profile-card__medical-data">
+              <div class="account-article__medical-data">
                 <p>
                   <i class="fa-sharp fa-solid fa-file-pdf"></i>&nbsp;&nbsp;Узи
                   брюшной полости
                 </p>
-                <p class="profile-card__required-info">25.06.19</p>
+                <p class="account-article__required-info">25.06.19</p>
               </div>
-              <div class="profile-card__medical-data">
+              <div class="account-article__medical-data">
                 <p>
                   <i class="fa-sharp fa-solid fa-file-pdf"></i
                   >&nbsp;&nbsp;Биохимия крови
                 </p>
-                <p class="profile-card__required-info">25.06.19</p>
+                <p class="account-article__required-info">25.06.19</p>
               </div>
-              <div class="profile-card__medical-data">
+              <div class="account-article__medical-data">
                 <p>
                   <i class="fa-sharp fa-solid fa-file-pdf"></i
                   >&nbsp;&nbsp;Анализ очень длинное...
                 </p>
-                <p class="profile-card__required-info">25.06.19</p>
+                <p class="account-article__required-info">25.06.19</p>
               </div>
             </div>
           </section>
-          <section class="profile-card">
-            <div class="profile-card__image">
-              <img src="../assets/cat_image.png" alt="cat pic" />
-              <a class="profile-card__change-link" href="#">изменить</a>
+          <section class="account-article__profile-card">
+            <div class="account-article__profile-image-field">
+              <img class="account-article__profile-image" src="../assets/cat_image.png" alt="cat pic" />
+              <a class="account-article__change-link" href="#">изменить</a>
             </div>
             <div>
               <h2>Имя питомца</h2>
               <div>
-                <p class="profile-card__required-info">тип</p>
-                <p class="profile-card__description">Кошка</p>
+                <p class="account-article__required-info">тип</p>
+                <p class="account-article__description">Кошка</p>
               </div>
               <div>
-                <p class="profile-card__required-info">пол</p>
-                <p class="profile-card__description">Женский</p>
+                <p class="account-article__required-info">пол</p>
+                <p class="account-article__description">Женский</p>
               </div>
               <div>
-                <p class="profile-card__required-info">порода</p>
-                <p class="profile-card__description">Русская голубая</p>
+                <p class="account-article__required-info">порода</p>
+                <p class="account-article__description">Русская голубая</p>
               </div>
               <div>
-                <p class="profile-card__required-info">возраст</p>
-                <p class="profile-card__description">4 месяца</p>
+                <p class="account-article__required-info">возраст</p>
+                <p class="account-article__description">4 месяца</p>
               </div>
             </div>
             <div>
               <div>
-                <p class="profile-card__required-info">медицинская карта</p>
-                <p class="profile-card__description">
+                <p class="account-article__required-info">медицинская карта</p>
+                <p class="account-article__description">
                   Медицинскую карту заводят при первом посещении клиники и
                   обновляют при каждом обращении. Здесь вы сможете посмотреть и
                   скачать актуальную карту в формате pdf
                 </p>
               </div>
               <div>
-                <p class="profile-card__required-info">результаты анализов</p>
-                <p class="profile-card__description">
+                <p class="account-article__required-info">результаты анализов</p>
+                <p class="account-article__description">
                   Пока нет готовых анализов
                 </p>
               </div>
             </div>
           </section>
           <section>
-            <h2>Запись на прием</h2>
-            <div class="profile-card">
-              <div class="profile-card__image">
-                <img src="../assets/customer_image.png" alt="customer pic" />
-                <a class="profile-card__change-link" href="#">отменить прием</a>
+            <h2 id="part3">Запись на прием</h2>
+            <div class="account-article__profile-card">
+              <div class="account-article__profile-image-field">
+                <img class="account-article__profile-image" src="../assets/customer_image.png" alt="customer pic" />
+                <a class="account-article__change-link" href="#">отменить прием</a>
               </div>
               <div>
                 <div>
-                  <p class="profile-card__required-info">врач</p>
-                  <p class="profile-card__description">
+                  <p class="account-article__required-info">врач</p>
+                  <p class="account-article__description">
                     Иванова Ирина Владимировна
                   </p>
                 </div>
                 <div>
-                  <p class="profile-card__required-info">ветклиника</p>
-                  <p class="profile-card__description">
+                  <p class="account-article__required-info">ветклиника</p>
+                  <p class="account-article__description">
                     Айболит на Краснополянской
                   </p>
                 </div>
               </div>
               <div>
                 <div>
-                  <p class="profile-card__required-info">питомец</p>
-                  <p class="profile-card__description">Громопетр</p>
+                  <p class="account-article__required-info">питомец</p>
+                  <p class="account-article__description">Громопетр</p>
                 </div>
                 <div>
-                  <p class="profile-card__required-info">дата</p>
-                  <p class="profile-card__description">15.10.19</p>
+                  <p class="account-article__required-info">дата</p>
+                  <p class="account-article__description">15.10.19</p>
                 </div>
                 <div>
-                  <p class="profile-card__required-info">время</p>
-                  <p class="profile-card__description">15:45</p>
+                  <p class="account-article__required-info">время</p>
+                  <p class="account-article__description">15:45</p>
                 </div>
               </div>
             </div>

@@ -95,66 +95,70 @@
     left: 63%;
 }
 
+/*------------ACCOUNT PAGE---------*/
+
 .account {
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-}
-
-.account {
+    font-family: 'Futura New', Arial, Helvetica, sans-serif;
     max-width: 90vw;
     margin: 0 auto;
-    font-size: "Futura";
 }
 
 .account a:hover {
-    color: #333333;
     text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    text-decoration: underline;
 }
 
-.account .content {
+.account-content {
     display: flex;
     max-width: 75vw;
     margin: 0 auto;
 }
 
-.account .aside {
-    width: 30%;
+.account-aside {
+    width: 40%;
     margin-top: 5%;
 }
 
-.account .aside .aside__title {
+.account-aside__title {
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
     font-size: 3em;
 }
 
-.account .aside .aside__menu {
+.account-aside__menu {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 10%;
     padding-left: 0;
     list-style: none;
+    font-weight: 700;
+    font-size: 1em;
 }
 
-.account .aside .aside__items {
+.account-aside__items {
     color: #C3B9B5;
     text-decoration: none;
 }
 
-.account .content .article {
+.account-article {
     width: 90%;
 }
 
-.account .profile-card {
+.account-article__profile-card {
     border: 1px solid #C3B9B5;
     border-radius: 15px;
-    padding: 10px;
+    padding-right: 10px;
     display: grid;
-    grid-template-columns: 20% 1fr 50%;
+    grid-template-columns: 25% 1fr 45%;
     margin-bottom: 5%;
 }
 
-.account .profile-card .profile-card__image {
+.account-article__profile-image-field {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,22 +166,22 @@
     font-weight: bolder;
 }
 
-.account .profile-card .profile-card__change-link {
+.account-article__change-link {
     color: rgb(255, 197, 158);
     margin-top: 5%;
     text-decoration: none;
 }
 
-.account .profile-card .profile-card__image_empty-field {
-    width: 80%;
+.account-article__profile-image {
+    width: 75%;
 }
 
-.account .my-pets {
+.account-article__my-pets {
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.account .my-pets .my-pets__button {
+.account-article__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,20 +195,22 @@
     border-radius: 10px;
 }
 
-.account .my-pets .my-pets__button:hover {
+.account-article__button:hover {
     border: 2px solid;
     transition: 0.7s;
 }
 
-.account .my-pets .my-pets__button:active {
-    transform: translateY(5px);
+.account-article__button:active {
+    transform: translateY(8px);
 }
 
-.account .profile-card .profile-card__required-info {
+.account-article__required-info {
     color: #C3B9B5;
+    font-weight: 400;
+    font-size: 0.8em;
 }
 
-.account .profile-card .profile-card__medical-data {
+.account-article__medical-data {
     border: 1px solid #C3B9B5;
     border-radius: 5px;
     height: 10%;
