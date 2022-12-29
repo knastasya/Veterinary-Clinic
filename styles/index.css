@@ -272,6 +272,7 @@ button {
     font-weight: bold;
     border: rgb(255, 197, 158);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .account-article__button:hover {
@@ -290,16 +291,49 @@ button {
 }
 
 .account-article__medical-data {
-    border: 1px solid #C3B9B5;
+    border: 1px solid #FFFFFF;
     border-radius: 5px;
     height: 10%;
-    box-shadow: 2px 2px 2px #C3B9B5;
+    box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.21);
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 3%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin: 2%;
+}
+
+.account-article__medical-data-pgf {
+    cursor: pointer;
+}
+
+.account-article__medical-data_large {
+    padding: 5% 2% 5% 2%;
+    display: flex;
+    align-items: center;
+}
+
+.account-article__medical-text {
+    display: flex;
+    align-items: center;
+}
+
+.account-article__medical-btn {
+    border: none;
+    background-color: white;
+    width: 100%;
+    cursor: not-allowed;
+}
+
+.account-article__medical-btn_circle {
+    background-color: #FFC59E;
+    border: none;
+    width: 11%;
+    height: 6%;
+    border-radius: 50%;
+    margin-left: 45%;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.21);
 }
 
 /*------------HISTORY PAGE---------*/
