@@ -1,12 +1,21 @@
 /*blog page*/
 
-.blog_main-container {
+.blog__pages {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    column-gap: 20px;
+
+}
+
+.blog__main-container {
     display: flex;
     flex-direction: row;
 }
 
 
-.blog_text {
+.blog__text {
     position: relative;
     top: 90pt;
     left: 150pt;
@@ -15,7 +24,7 @@
     font-size: 3em;
 }
 
-.blog_nav {
+.blog__main-container_nav {
     display: flex;
     flex-direction: column;
     list-style-type: none;
@@ -28,7 +37,7 @@
     width: 20%;
 }
 
-.blog_container_cards {
+.blog__main-container_cards {
     display: flex;
     flex-direction: column;
     margin-top: 9%;
@@ -40,30 +49,42 @@
 
 
 
-
 /*news and promo page*/
 
-.news_main-container {
+.news-and-promo__pages {
+
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    width: 90%;
+    column-gap: 20px;
+
 }
 
-
-.news_text {
+.news-and-promo__text {
     position: relative;
     top: 90pt;
     left: 130pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 3em;
-
 }
 
-.news_container {
+.news-and-promo__main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.news-and-promo__main-container_cards {
     margin-left: 400pt;
     margin-bottom: 5%;
 }
 
+button {
+
+    border: 0;
+    background: transparent;
+}
 
 .square,
 .square2,
